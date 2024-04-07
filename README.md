@@ -1,1 +1,2 @@
-# Mahabaleshwar-Tourist-Website
+# Mahabaleshwar Tourist Website
+This project is a tourist website dedicated to Mahabaleshwar, a popular hill station in India. It provides information about various tourist attractions, History of Mahabaleshwar, accommodations, restaurants, and activities available in Mahabaleshwar. Website also having Contact form for inquiries and feedback. The website is developed using HTML, CSS, and JavaScript.
