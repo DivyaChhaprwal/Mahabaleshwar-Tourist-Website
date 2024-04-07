@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    cursor: pointer;  
+}
+
+.nav-list{
+ width: 70%;
+ display: flex;
+ align-items: center;
+}
+
+.logo{
+    width:50% ;
+    display: flex;
+    padding: 4px;
+}
+
+.logo img{
+    border-radius: 30px;
+    width: 20%;
+}
+
+.nav-list li{
+   list-style-type: none;
+   width:40%;
+   margin:1% ;
+   padding:1%;
+   text-align: center;
+   display: flex;
+}
+
+.nav-list li a:hover{
+    text-align: center;
+    display: flex;
+}
+
+.search{
+    width: 30%;
+    text-align:right;
+    padding:10px;
+}
+
+#search{
+   padding:1%;
+    margin:1%;
+    border-radius: 7px;
+    border:1px solid rgb(54, 51, 51);
+}
+
+.search button{
+    border:1px solid grey ;
+    border-radius:6px ;
+    padding:3px;
+}
+
+.background{
+    background:rgba(209, 241, 194, 0.7) url('https://tse3.mm.bing.net/th?id=OIP.AXa7VOF4VLpl0MoHbaMUagHaEo&pid=Api&P=0&w=295&h=185');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.firsthalf{
+    width: 50%;
+    padding:12%;
+    color:black;
+}
+
+.mha{
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.secondhalf{
+    width: 70vh;
+    display: flex;
+    margin:auto
+}
+
+.secondhalf img{
+    border-radius:50%;
+    width: 90%;
+    height: 70%;
+    border:3px solid black;
+}
+.bsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 222, 230);   
+}
+.p{ 
+    width: 60%;
+    padding:4% 10%;
+}
+.his{
+    text-align: center;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.q{
+    width: 70vh;
+    display: flex;
+    margin:auto;
+    padding:5% 0%;
+}
+.q img{
+    border-radius:15%;
+    width: 70%;
+    border:2px solid black;
+}
+.asection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 222, 252);
+    flex-direction: row-reverse;
+}
+.y{
+    width: 40%;
+    padding:4% 6%;
+}
+.tou{
+    text-align: center;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.z{
+    width: 60vh;
+    display: flex;
+    margin:auto;
+    padding:5%;
+}
+.z img{
+    border-radius:15%;
+    width: 70%;
+    border:2px solid black;  
+}  
+.csection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 247, 236);   
+}
+.m{
+    width: 60%;
+    padding:4% 10%;
+}
+.tra{
+    text-align: center;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.n{
+    width: 70vh;
+    display: flex;
+    margin:auto;
+    padding:3%;
+}
+
+.n img{
+    border-radius:15%;
+    width: 70%;
+    border:2px solid black;
+}
+
+.contact{
+    background-color: rgb(245, 234, 235);
+}
+
+.part{ 
+    padding:3%; 
+    text-align:center;
+}
+
+.all{
+    text-align:center;  
+}
+
+.all input{
+    padding:1%;
+    width: 40%;
+    margin:1%;
+    font-size:100%;
+    border-radius:10px;
+    font-family:cursive;
+    border:2px solid rgb(20, 20, 20) ;
+}
+
+.all textarea{
+    width: 40%;
+    padding:1%;
+    margin:1%;
+    font-size:100%;
+    border-radius:10px;
+    font-family:cursive;
+    border:2px solid rgb(20, 20, 20) ;
+}
+
+.su{
+    padding:3px 79%;
+    text-align:right;
+}
+
+.su button{
+    display: flex;
+    font-size:90%;
+    margin:2%;
+    justify-content: center;
+    padding:3px 3px;
+    border:2px solid gray;
+    border-radius: 5px;
+}
+
+.text-footer{
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    padding:12px;
+    background-color: rgb(65, 61, 61);
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 34px;
+}
+
+.line{
+
+    width: 25px;
+    background-color: white;
+    height: 4px;
+    margin:2px 0px;
+}
